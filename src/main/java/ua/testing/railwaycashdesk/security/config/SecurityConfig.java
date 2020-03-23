@@ -13,7 +13,6 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import ua.testing.railwaycashdesk.security.jwt.JwtService;
 import ua.testing.railwaycashdesk.security.jwt.JwtTokenFilter;
 
-@EnableWebSecurity
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
